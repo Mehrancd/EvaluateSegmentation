@@ -5,8 +5,8 @@ The module needs tensorflow, scikit,.... that automatically installs them. if yo
 if you need a fast processing, you should increase the voxel size using "resample scaler volume" tool.
 ![Alt text](Screenshot1.jpg?raw=true "Using Slicer for label evaluation")
 Help:
-If you used this module in your research please cite these papers:
-for more details about the algorithm we refer you to 
+If you used this module in your research or need more details about the metrics please cite these papers:
+
 
 https://doi.org/10.1016/j.mri.2019.11.002 
 
