@@ -19,13 +19,20 @@ touch temp3.txt
 
 touch results.txt
 
-for l in {1,2,4}; do \n
+for l in {1,2,4}; do
+
     pred='labels'$l1'.nii.gz'
+    
     orig='orig'$l2'.nii.gz'
+    
     /path to/EvaluateSegmentation $orig $pred |sed -n 2,32p | awk '{print $3}'>$channel'/'temp.txt
+    
 	    cp -v  'results.txt' 'temp2.txt'
+     
 	    awk '{getline l <"temp2.txt"; print $0"\t"l} ' temp.txt > temp3.txt
+     
 	    cp -v 'temp3.txt' 'results.txt'	
+     
 done
 
 
