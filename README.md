@@ -12,8 +12,11 @@ $ chmod +x EvaluationSegmentation_linux/EvaluateSegmentation/Resources/EvaluateS
 if you want to run on folders, I suggest to use shell script as:
 
 touch temp.txt
+
 touch temp2.txt
+
 touch temp3.txt
+
 touch results.txt
 
 for l in {1,2,4}; do 
