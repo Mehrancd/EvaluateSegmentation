@@ -19,7 +19,7 @@ touch temp3.txt
 
 touch results.txt
 
-for l in {1,2,4}; do
+for l in {1,2,3,4,...}; do
 
     pred='labels'$l1'.nii.gz'
     
