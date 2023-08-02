@@ -6,6 +6,7 @@ The module needs tensorflow, scikit,.... that automatically installs them. if yo
 if you need a fast processing, you should increase the voxel size using "resample scaler volume" tool.
 
 if you received an error about permission to run: 
+
 $ chmod +x EvaluationSegmentation_linux/EvaluateSegmentation/Resources/EvaluateSegmentation
 ![Alt text](Screenshot1.jpg?raw=true "Using Slicer for label evaluation")
 Help:
